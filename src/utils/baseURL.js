@@ -1,4 +1,4 @@
 const getBaseURL = () =>{
-    return "https://bookstore-git-main-harshit-mauryas-projects.vercel.app"
+    return "http://localhost:5000"
 }
 export default getBaseURL;
