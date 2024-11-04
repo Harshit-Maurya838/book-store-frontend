@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth } from '../../../context/AuthContext';
-import { useGetOrderByEmailQuery } from '../../../redux/features/orders/ordersApi';
+import { useGetOrderByEmailQuery } from '../../../redux/features/orders/ordersAPI';
 
 const UserDashboard = () => {
     const { currentUser } = useAuth();
